@@ -9,7 +9,7 @@ replace (
 
 
 require (
-	github.com/docker/engine
+	github.com/docker/engine v19.03.10
 	github.com/docker/machine v0.16.1
 	github.com/linode/linodego v0.9.0
 	github.com/stretchr/testify v1.3.0
