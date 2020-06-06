@@ -2,8 +2,14 @@ module  github.com/Razvy000/docker-machine-driver-linode
 
 //module github.com/linode/docker-machine-driver-linode
 
+replace (
+	github.com/Sirupsen/logrus => github.com/sirupsen/logrus v1.4.2
+	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20200203170920-46ec8731fbce
+)
+
+
 require (
-	github.com/docker/engine v19.03.11 // indirect
+	github.com/docker/docker v1.13.1 // indirect
 	github.com/docker/machine v0.16.1
 	github.com/linode/linodego v0.9.0
 	github.com/stretchr/testify v1.3.0
