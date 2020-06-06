@@ -1,4 +1,6 @@
-module github.com/linode/docker-machine-driver-linode
+module  github.com/Razvy000/docker-machine-driver-linode
+
+//module github.com/linode/docker-machine-driver-linode
 
 require (
 	github.com/docker/engine v19.03.11 // indirect
