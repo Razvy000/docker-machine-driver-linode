@@ -1,7 +1,7 @@
 module github.com/linode/docker-machine-driver-linode
 
 require (
-	github.com/docker/docker v1.13.1 // indirect
+	github.com/docker/engine v19.03.11 // indirect
 	github.com/docker/machine v0.16.1
 	github.com/linode/linodego v0.9.0
 	github.com/stretchr/testify v1.3.0
